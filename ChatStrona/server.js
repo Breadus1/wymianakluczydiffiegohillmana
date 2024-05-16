@@ -4,7 +4,7 @@ const sqlite3 = require("sqlite3").verbose();
 const crypto = require('crypto');
 const fs = require('fs');
 const app = express();
-const port = 3000;
+const port = 7000;
 
 const serverDH = crypto.createDiffieHellman(2048);
 const serverPublicKey = serverDH.generateKeys('hex');
